@@ -14,7 +14,7 @@ import Card11 from '../../assets/card11.png';
 import Card12 from '../../assets/card12.png';
 import './Home.css';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+
 
 const Home = () => {
     const [data, setData] = useState({});
@@ -148,7 +148,7 @@ const Home = () => {
                         <p className='text-center font-semibold text-2xl text-gray-600'>{data.token}</p>
                     </div>
                     <div className='text-center'>
-                        <Link to={data.url} className='btn btn-sm glass border bg-gray-800 text-white'>Unlock Last code</Link>
+                        <a href={data.url} className='btn btn-sm glass border bg-gray-800 text-white'>Unlock Last code</a>
                     </div>
                 </form>
             </dialog>
