@@ -87,7 +87,7 @@ const Home = () => {
         const getData = link[id]
         setData(getData);
     };
-    console.log(data);
+
     return (
         <div className="max-w-screen-md mx-auto py-8 px-8 ">
             <div className='card glass py-6'>
