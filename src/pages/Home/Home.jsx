@@ -22,62 +22,62 @@ const Home = () => {
     const link = [
         {
             img: Card1,
-            token: 'ABC-1234-XXX',
+            token: 'JCDB-68B4-HPHU-####',
             url: 'https://offertoday.world/roblox/r'
         },
         {
             img: Card2,
-            token: 'MNO-5678-XXX',
+            token: '4E1I-YRZT-4XHY-####',
             url: 'https://offertoday.world/cashapp/c'
         },
         {
             img: Card3,
-            token: 'QRS-9012-XXX',
+            token: 'UJZC-G4KK-8OQP-####',
             url: 'https://offertoday.world/fortnite/f'
         },
         {
             img: Card4,
-            token: 'DEF-3456-XXX',
+            token: 'HJDN-ORJ2-GVZF-####',
             url: 'https://offertoday.world/amazon/a'
         },
         {
             img: Card5,
-            token: 'GHI-7890-XXX',
+            token: '7Z64-RF15-DFNW-####',
             url: 'https://offertoday.world/itunes/i'
         },
         {
             img: Card6,
-            token: 'JKL-2345-XXX',
+            token: 'OOY0-Q63V-OWNI-####',
             url: 'https://offertoday.world/walmart/w'
         },
         {
             img: Card7,
-            token: 'UVW-6789-XXX',
+            token: '72LO-BAIX-FGGZ-####',
             url: 'https://offertoday.world/xbox/x'
         },
         {
             img: Card8,
-            token: 'PQR-0123-XXX',
+            token: 'CJTK-B4YG-G1FN-####',
             url: 'https://offertoday.world/googleplay/g'
         },
         {
             img: Card9,
-            token: 'STU-4567-XXX',
+            token: 'Z6YQ-QV7U-IMF1-####',
             url: 'https://offertoday.world/bestbuy/b'
         },
         {
             img: Card10,
-            token: 'VWX-8901-XXX',
+            token: 'EPWD-2BYE-4JXG-####',
             url: 'https://offertoday.world/playstation/p'
         },
         {
             img: Card11,
-            token: 'YZA-2345-XXX',
+            token: 'S1R7-VPN4-U9UN-####',
             url: 'https://offertoday.world/steam/s'
         },
         {
             img: Card12,
-            token: 'BCD-6789-XXX',
+            token: 'E283-9QCY-RF0Y-####',
             url: 'https://offertoday.world/ebay/e'
         }
     ]
@@ -89,14 +89,14 @@ const Home = () => {
     };
     console.log(data);
     return (
-        <div className="max-w-screen-lg mx-auto py-8 px-8 ">
+        <div className="max-w-screen-md mx-auto py-8 px-8 ">
             <div className='card glass py-6'>
                 <div>
                     <img src={Banner} className="mx-auto h-[150px]" alt="banner" />
                     <h2 id="title" className="text-4xl font-bold uppercase text-center glass">FREE GIFT CARD CODE</h2>
                     <img src={Logo} className="mx-auto h-[150px] mt-6" alt="banner" />
                 </div>
-                <div className="max-w-2xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 mt-6 lg:mt-12">
+                <div className="max-w-2xl mx-auto grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 mt-6 lg:mt-12">
                 
                     <div className="card shadow-2xl">
                         <figure className='cursor-pointer' onClick={() => handleClick(0)}><img src={Card1} alt="car!" className='h-[300px] w-full' /></figure>
