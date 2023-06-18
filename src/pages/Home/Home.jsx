@@ -99,7 +99,7 @@ const Home = () => {
                 <div className="max-w-2xl mx-auto grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 mt-6 lg:mt-12">
                 
                     <div className="card shadow-2xl">
-                        <figure className='cursor-pointer' onClick={() => handleClick(0)}><img src={Card1} alt="car!" className='h-[300px] w-full' /></figure>
+                        <figure className='cursor-pointer' onClick={() => handleClick(0)}><img src={Card1} alt="car!" className='h-[180px] lg:h-[300px] w-full' /></figure>
                     </div>
                     <div className="card shadow-2xl">
                         <figure className='cursor-pointer' onClick={() => handleClick(1)}><img src={Card2} alt="car!" className='h-[300px] w-full' /></figure>
