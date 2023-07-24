@@ -18,75 +18,89 @@ import { useState } from 'react';
 
 const Home = () => {
     const [data, setData] = useState({});
+    const [randomNumber, setRandomNumber] = useState();
 
     const link = [
         {
             img: Card1,
-            token: 'JCDB-68B4-HPHU-####',
             url: 'https://offertoday.world/roblox/r'
         },
         {
             img: Card2,
-            token: '4E1I-YRZT-4XHY-####',
             url: 'https://offertoday.world/cashapp/c'
         },
         {
             img: Card3,
-            token: 'UJZC-G4KK-8OQP-####',
             url: 'https://offertoday.world/fortnite/f'
         },
         {
             img: Card4,
-            token: 'HJDN-ORJ2-GVZF-####',
             url: 'https://offertoday.world/amazon/a'
         },
         {
             img: Card5,
-            token: '7Z64-RF15-DFNW-####',
             url: 'https://offertoday.world/itunes/i'
         },
         {
             img: Card6,
-            token: 'OOY0-Q63V-OWNI-####',
             url: 'https://offertoday.world/walmart/w'
         },
         {
             img: Card7,
-            token: '72LO-BAIX-FGGZ-####',
             url: 'https://offertoday.world/xbox/x'
         },
         {
             img: Card8,
-            token: 'CJTK-B4YG-G1FN-####',
             url: 'https://offertoday.world/googleplay/g'
         },
         {
             img: Card9,
-            token: 'Z6YQ-QV7U-IMF1-####',
             url: 'https://offertoday.world/bestbuy/b'
         },
         {
             img: Card10,
-            token: 'EPWD-2BYE-4JXG-####',
             url: 'https://offertoday.world/playstation/p'
         },
         {
             img: Card11,
-            token: 'S1R7-VPN4-U9UN-####',
             url: 'https://offertoday.world/steam/s'
         },
         {
             img: Card12,
-            token: 'E283-9QCY-RF0Y-####',
             url: 'https://offertoday.world/ebay/e'
         }
     ]
+
+    const randomTextArray = [
+        "ABCD-EFGH-IJKL-XXXX",
+        "QRST-UVWX-YZ01-XXXX",
+        "6789-WXYZ-BCDE-XXXX",
+        "JKLM-NOPQ-RSTU-XXXX",
+        "Z012-3456-789A-XXXX",
+        "EFGH-IJKL-MNOP-XXXX",
+        "UVWX-YZ01-2345-XXXX",
+        "WXYZ-BCDE-FGHI-XXXX",
+        "NOPQ-RSTU-VWXY-XXXX",
+        "3456-789A-BCDF-XXXX",
+        "IJKL-MNOP-QRST-XXXX",
+        "YZ01-2345-6789-XXXX",
+        "BCDE-FGHI-JKLM-XXXX",
+        "RSTU-VWXY-Z012-XXXX",
+        "789A-BCDF-EFGH-XXXX",
+        "MNOP-QRST-UVWX-XXXX",
+        "2345-6789-WXYZ-XXXX",
+        "FGHI-JKLM-NOPQ-XXXX",
+        "VWXY-Z012-3456-XXXX",
+        "BCDF-EFGH-IJKL-XXXX"
+    ];
 
     const handleClick = (id) => {
         window.my_modal_3.showModal()
         const getData = link[id]
         setData(getData);
+        setRandomNumber(Math.floor(Math.random() * 20) + 1)
     };
+    console.log(randomNumber)
 
     return (
         <div className="max-w-screen-md mx-auto py-8 px-8 ">
@@ -97,7 +111,7 @@ const Home = () => {
                     <img src={Logo} className="mx-auto h-[150px] mt-6" alt="banner" />
                 </div>
                 <div className="max-w-2xl mx-auto grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 mt-6 lg:mt-12">
-                
+
                     <div className="card shadow-2xl">
                         <figure className='cursor-pointer' onClick={() => handleClick(0)}><img src={Card1} alt="car!" className='h-[250px] lg:h-[300px] w-full' /></figure>
                     </div>
@@ -134,9 +148,9 @@ const Home = () => {
                     <div className="card shadow-2xl">
                         <figure className='cursor-pointer' onClick={() => handleClick(11)}><img src={Card12} alt="car!" className='h-[250px] lg:h-[300px] w-full' /></figure>
                     </div>
-                    
-                   
-                
+
+
+
                 </div>
             </div>
 
@@ -144,8 +158,8 @@ const Home = () => {
                 <form method="dialog" className="modal-box">
                     <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                     <div className='flex flex-row space-x-6 justify-around items-center mb-6'>
-                        <img src={data.img} alt="" className='h-[180px]'/>
-                        <p className='text-center font-semibold text-2xl text-gray-600'>{data.token}</p>
+                        <img src={data.img} alt="" className='h-[180px]' />
+                        <p className='text-center font-semibold text-2xl text-gray-600'>{randomTextArray[randomNumber]}</p>
                     </div>
                     <div className='text-center'>
                         <a href={data.url} className='btn btn-sm glass border bg-gray-800 text-white'>Unlock Last code</a>
