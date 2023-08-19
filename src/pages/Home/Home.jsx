@@ -110,43 +110,43 @@ const Home = () => {
                     <h2 id="title" className="text-4xl font-bold uppercase text-center glass">FREE GIFT CARD CODE</h2>
                     <img src={Logo} className="mx-auto h-[150px] mt-6" alt="banner" />
                 </div>
-                <div className="max-w-2xl mx-auto grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 mt-6 lg:mt-12">
+                <div className="max-w-2xl mx-auto px-10 lg:px-0 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 mt-6 lg:mt-12">
 
                     <div className="card shadow-2xl">
-                        <figure className='cursor-pointer' onClick={() => handleClick(0)}><img src={Card1} alt="car!" className='h-[250px] lg:h-[300px] w-full' /></figure>
+                        <figure className='cursor-pointer' onClick={() => handleClick(0)}><img src={Card1} alt="car!" className='h-[200px] lg:h-[300px] w-full' /></figure>
                     </div>
                     <div className="card shadow-2xl">
-                        <figure className='cursor-pointer' onClick={() => handleClick(1)}><img src={Card2} alt="car!" className='h-[250px] lg:h-[300px] w-full' /></figure>
+                        <figure className='cursor-pointer' onClick={() => handleClick(1)}><img src={Card2} alt="car!" className='h-[200px] lg:h-[300px] w-full' /></figure>
                     </div>
                     <div className="card shadow-2xl">
-                        <figure className='cursor-pointer' onClick={() => handleClick(2)}><img src={Card3} alt="car!" className='h-[250px] lg:h-[300px] w-full' /></figure>
+                        <figure className='cursor-pointer' onClick={() => handleClick(2)}><img src={Card3} alt="car!" className='h-[200px] lg:h-[300px] w-full' /></figure>
                     </div>
                     <div className="card shadow-2xl">
-                        <figure className='cursor-pointer' onClick={() => handleClick(3)}><img src={Card4} alt="car!" className='h-[250px] lg:h-[300px] w-full' /></figure>
+                        <figure className='cursor-pointer' onClick={() => handleClick(3)}><img src={Card4} alt="car!" className='h-[200px] lg:h-[300px] w-full' /></figure>
                     </div>
                     <div className="card shadow-2xl">
-                        <figure className='cursor-pointer' onClick={() => handleClick(4)}><img src={Card5} alt="car!" className='h-[250px] lg:h-[300px] w-full' /></figure>
+                        <figure className='cursor-pointer' onClick={() => handleClick(4)}><img src={Card5} alt="car!" className='h-[200px] lg:h-[300px] w-full' /></figure>
                     </div>
                     <div className="card shadow-2xl">
-                        <figure className='cursor-pointer' onClick={() => handleClick(5)}><img src={Card6} alt="car!" className='h-[250px] lg:h-[300px] w-full' /></figure>
+                        <figure className='cursor-pointer' onClick={() => handleClick(5)}><img src={Card6} alt="car!" className='h-[200px] lg:h-[300px] w-full' /></figure>
                     </div>
                     <div className="card shadow-2xl">
-                        <figure className='cursor-pointer' onClick={() => handleClick(6)}><img src={Card7} alt="car!" className='h-[250px] lg:h-[300px] w-full' /></figure>
+                        <figure className='cursor-pointer' onClick={() => handleClick(6)}><img src={Card7} alt="car!" className='h-[200px] lg:h-[300px] w-full' /></figure>
                     </div>
                     <div className="card shadow-2xl">
-                        <figure className='cursor-pointer' onClick={() => handleClick(7)}><img src={Card8} alt="car!" className='h-[250px] lg:h-[300px] w-full' /></figure>
+                        <figure className='cursor-pointer' onClick={() => handleClick(7)}><img src={Card8} alt="car!" className='h-[200px] lg:h-[300px] w-full' /></figure>
                     </div>
                     <div className="card shadow-2xl">
-                        <figure className='cursor-pointer' onClick={() => handleClick(8)}><img src={Card9} alt="car!" className='h-[250px] lg:h-[300px] w-full' /></figure>
+                        <figure className='cursor-pointer' onClick={() => handleClick(8)}><img src={Card9} alt="car!" className='h-[200px] lg:h-[300px] w-full' /></figure>
                     </div>
                     <div className="card shadow-2xl">
-                        <figure className='cursor-pointer' onClick={() => handleClick(9)}><img src={Card10} alt="car!" className='h-[250px] lg:h-[300px] w-full' /></figure>
+                        <figure className='cursor-pointer' onClick={() => handleClick(9)}><img src={Card10} alt="car!" className='h-[200px] lg:h-[300px] w-full' /></figure>
                     </div>
                     <div className="card shadow-2xl">
-                        <figure className='cursor-pointer' onClick={() => handleClick(10)}><img src={Card11} alt="car!" className='h-[250px] lg:h-[300px] w-full' /></figure>
+                        <figure className='cursor-pointer' onClick={() => handleClick(10)}><img src={Card11} alt="car!" className='h-[200px] lg:h-[300px] w-full' /></figure>
                     </div>
                     <div className="card shadow-2xl">
-                        <figure className='cursor-pointer' onClick={() => handleClick(11)}><img src={Card12} alt="car!" className='h-[250px] lg:h-[300px] w-full' /></figure>
+                        <figure className='cursor-pointer' onClick={() => handleClick(11)}><img src={Card12} alt="car!" className='h-[200px] lg:h-[300px] w-full' /></figure>
                     </div>
 
 
